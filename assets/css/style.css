@@ -1,0 +1,60 @@
+*{
+    box-sizing:border-box;
+}
+
+.clearfix::after {
+    content: " ";
+    display:block;
+    clear:both;
+}
+
+.container {
+    background:#dddddd;
+    width: 960px;
+}
+
+.header {
+    background:#ffffff
+    border: 1px solid #eee;
+}
+
+.about{
+    float:right;
+}
+
+.Portfolio {
+    float:right;
+}
+
+.Contact{
+    float:right;
+}
+
+.name {
+    background-color:#4aaaa5;
+    float:left;
+    width:100px ;
+    height:100px ;
+    margin-bottom:30px;
+}
+
+.about_me {
+    background-color:#ffffff;
+    margin-top:30px;
+}
+
+p{
+    ;
+}
+
+.p1{
+    ;
+}
+
+.p2{
+    ;
+}
+
+.p3{
+
+}

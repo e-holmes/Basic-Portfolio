@@ -1,78 +1,113 @@
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 }
 
-body{
-    background:#4aaaa5;
-
-}
-header { 
-    height: 100px;
-
-    background: #ffffff;
-    text-align: center;
-    border: 3px solid #cccccc;
+.clearfix::after{
+    content: "  ";
+    display:block;
+    clear: both;
     }
 
-.clearfix::after {
-    content: " ";
-    display:block;
-    clear:both;
+body {
+    margin:0px;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
 }
 
-.container {
-    background:#dddddd;
-    width: 960px;
-    height:360px;
-}
 
-h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#777777
-}
-
-.Contact{
-    float:right;
-}
-
-.Portfolio {
-    float:right;
-}
-
-.about{
-    float:right;
-}
-
-.name {
-    color:#ffffff;
-    background-color:#4aaaa5;
-    width:100px ;
-    height:100px ;
-    margin-bottom:30px;
-}
-
-.about_me {
-    color:#4aaaa5;
-    float:center;
+header { 
+    position:relative;top:0%;left:0;right:0;height:90px;
     width:100%;
-    height:960px;
-    background-color:#ffffff;
-    border: 3px solid #dddddd;
-    margin-top:30px;
+    background: #ffffff;
+    margin-bottom:5%;
+    border:solid 2px #cccccc;
+    }
+
+    .name{
+        background:#4aaaa5;
+        color: #ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin:0%;
+        padding:10px;
+        position:absolute;top:0%;left:300px;
+        text-align:center;        
+        width:160px;
+        height:90px;
+    }
+
+    .clearfix{position:relative;top:0%;right:300px;}
+
+    .Contact{
+        color:#777777;
+        float:right;
+        padding-top:25px;
+        padding-bottom:25px;
+        padding-left:15px;
+    }
+
+    .Portfolio{
+        color:#777777;
+        float:right;
+        padding-top:25px;
+        padding-bottom:25px;
+        padding-left:15px;
+        padding-right:10px;
+    }
+
+    .about{
+        color:#777777;
+        float:right;
+        padding-top:25px;
+        padding-bottom:25px;
+        padding-right:10px;
+    }
+
+.container{
+    margin-top:5%;
+    padding-left:160px;
+    padding-right:160px;
+}
+
+.section {
+    background: #ffffff;
+    border:solid 2px #dddddd;
+    color:teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin: auto;
+    padding: 2%;
+    text-align: left;
+    width:960px;
+}
+
+.AM_photo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+article {
+    border-top:2px solid darkgrey;
+    margin-top:2%;
+    color: lightgrey;
+    height:240px;
+
 }
 
 p{
-    color:#777777;
+    font-family: ;
+    font-size:15px;
+    margin-top:2%;
+    padding:15px;
+    color:black;
 }
 
-.p1{
-    ;
-}
-
-.p2{
-    ;
-}
-
-.p3{
-
+footer {
+    height:50px;
+    margin-top: 10px;
+    position:fixed;bottom:0;left:0;right:0;height:80px;
+    background: lightgray;
 }

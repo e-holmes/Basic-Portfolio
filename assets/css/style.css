@@ -8,12 +8,14 @@
     clear: both;
     }
 
+
+
 body {
     margin:0px;
     color: black;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
+    background-image: url("../images/bananas/bananas.png");
 }
 
 
@@ -85,29 +87,28 @@ header {
 
 .AM_photo {
     float: left;
-    width: 100px;
-    height: 100px;
+    width:150px;
+    padding:5px;
 }
 
 article {
     border-top:2px solid darkgrey;
     margin-top:2%;
-    color: lightgrey;
     height:240px;
 
 }
 
 p{
-    font-family: ;
+    font-family:Arial, Helvetica, sans-serif;
     font-size:15px;
     margin-top:2%;
     padding:15px;
-    color:black;
+    color:#777777;
 }
 
 footer {
     height:50px;
     margin-top: 10px;
     position:fixed;bottom:0;left:0;right:0;height:80px;
-    background: lightgray;
+    background: #666666;
 }

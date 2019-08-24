@@ -24,7 +24,7 @@ header {
     width:100%;
     background: #ffffff;
     margin-bottom:5%;
-    border:solid 2px #cccccc;
+    border-bottom:solid 2px #cccccc;
     }
 
     .name{
@@ -45,6 +45,7 @@ header {
     .Contact{
         color:#777777;
         float:right;
+        font-size: 15px;
         padding-top:25px;
         padding-bottom:25px;
         padding-left:15px;
@@ -53,6 +54,7 @@ header {
     .Portfolio{
         color:#777777;
         float:right;
+        font-size: 15px;
         padding-top:25px;
         padding-bottom:25px;
         padding-left:15px;
@@ -62,6 +64,7 @@ header {
     .about{
         color:#777777;
         float:right;
+        font-size: 15px;
         padding-top:25px;
         padding-bottom:25px;
         padding-right:10px;
@@ -69,6 +72,7 @@ header {
 
 .container{
     margin-top:5%;
+    margin-bottom:5%;
     padding-left:160px;
     padding-right:160px;
 }
@@ -83,32 +87,43 @@ header {
     padding: 2%;
     text-align: left;
     width:960px;
+
 }
 
 .AM_photo {
     float: left;
     width:150px;
-    padding:5px;
+    margin:10px;
 }
 
 article {
     border-top:2px solid darkgrey;
     margin-top:2%;
-    height:240px;
+
 
 }
 
 p{
     font-family:Arial, Helvetica, sans-serif;
     font-size:15px;
-    margin-top:2%;
-    padding:15px;
+    line-height:2;
+    margin:2%;
     color:#777777;
 }
 
 footer {
     height:50px;
-    margin-top: 10px;
-    position:fixed;bottom:0;left:0;right:0;height:80px;
+    margin-top:5%;
+    position:relative;bottom:0;left:0;right:0;height:80px;
     background: #666666;
 }
+
+.cp1{
+    float: left;
+}
+
+.undo::after{
+    content: "  ";
+    display:block;
+    clear: both;
+    }

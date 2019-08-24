@@ -84,7 +84,10 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     margin: auto;
-    padding: 2%;
+    padding-top: 2%;
+    padding-right:2%;
+    padding-left:2%;
+    padding-bottom:1%;
     text-align: left;
     width:960px;
 
@@ -103,12 +106,47 @@ article {
 
 }
 
-p{
+.p1{
     font-family:Arial, Helvetica, sans-serif;
     font-size:15px;
     line-height:2;
     margin:2%;
     color:#777777;
+}
+
+.undo::after{
+    content: "  ";
+    display:block;
+    clear: both;
+    }
+
+.cp1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#777777;
+}
+
+input{
+    color:#777777;
+    float:left;
+    width:100%;
+    height:35px;
+}
+
+.Minput{
+    height:150px;
+}
+
+.button{
+    font-size:15px;
+    text-align:center;
+    background-color:teal;
+    border-color:teal;
+    color:#ffffff;
+    width:80px;
+    height:30px;
+    padding-top:5px;
+    margin-top:20px;
 }
 
 footer {
@@ -118,12 +156,3 @@ footer {
     background: #666666;
 }
 
-.cp1{
-    float: left;
-}
-
-.undo::after{
-    content: "  ";
-    display:block;
-    clear: both;
-    }

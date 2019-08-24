@@ -31,12 +31,12 @@ header {
         background:#4aaaa5;
         color: #ffffff;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 25px;
+        font-size: 30px;
         margin:0%;
-        padding:10px;
-        position:absolute;top:0%;left:300px;
+        padding-top:10px;
+        position:absolute;top:0%;left:280px;
         text-align:center;        
-        width:160px;
+        width:220px;
         height:90px;
     }
 
@@ -80,7 +80,7 @@ header {
 .section {
     background: #ffffff;
     border:solid 2px #dddddd;
-    color:teal;
+    color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     margin: auto;
@@ -140,8 +140,8 @@ input{
 .button{
     font-size:15px;
     text-align:center;
-    background-color:teal;
-    border-color:teal;
+    background-color:#4aaaa5;
+    border-color:#4aaaa5;
     color:#ffffff;
     width:80px;
     height:30px;
@@ -155,4 +155,14 @@ footer {
     position:relative;bottom:0;left:0;right:0;height:80px;
     background: #666666;
 }
+
+.photos{
+    padding-top:30px;
+}
+.pic1{
+    width: 300px;
+    padding-right:25px;
+    padding-bottom:25px;
+}
+
 
